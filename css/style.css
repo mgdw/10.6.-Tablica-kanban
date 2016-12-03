@@ -1,0 +1,140 @@
+@import 'https://fonts.googleapis.com/css?family=Lato|Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+    max-width: 1800px;
+    text-align: center;
+}
+
+h1 {
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  color: white;
+  line-height: 80px;
+  background-color: #56519e;
+  font-family: 'Indie Flower', cursive;
+}
+
+.create-column {
+  display: inline-block;
+  min-height: 50px;
+  width: 180px;
+  color: #411A6B;
+  font-size: 20px;
+  background-color: #E3DA62;
+  font-family: 'Cormorant Garamond', serif;
+  border: none;
+  cursor: pointer;
+  transition: 3s;
+  margin-bottom: 10px;
+}
+
+.create-column:hover {
+  background-color: #C2B93B;
+}
+
+.column-container{
+  margin-top: 20px;
+}
+
+.column {
+  min-width: 250px;
+  max-width: 350px;
+  display: inline-block;
+  border-right: dashed #E3DA62 4px;
+  padding: 0 7px;
+}
+
+.column:first-child {
+  border-left: dashed #E3DA62 4px;
+}
+
+.column-title {
+  margin-top: 0;
+  min-height: 50px;
+  line-height: 50px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #704999;
+
+}
+
+.ui-sortable {
+  min-height: 200px;
+}
+
+.btn-delete {
+  color: #A04592;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.column>.btn-delete {
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  line-height: 15px;
+  border: solid #999999 1px;
+  margin-right: 20px;
+}
+
+.add-card {
+  height: 30px;
+  min-width: 120px;
+  font-size: 15px;
+  line-height: 15px;
+  background-color: #E3C562;
+  border: none;
+  cursor: pointer;
+  color: #411A6B;
+}
+
+.card {
+  list-style: none;
+  padding: 15px 0;
+  border: 1px solid #FFEFBD;
+
+}
+
+.card .btn-delete {
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+ul {
+  padding-left: 5px;
+}
+
+li button {
+  float: left;
+  margin: 1px 10px;
+  border: solid #999999 1px;
+}
+
+li p {
+  text-align: left;
+  margin: 0;
+  cursor: pointer;
+}
+
+.card-placeholder {
+  height: 62px;
+    border: dashed 2px grey;
+}
+
