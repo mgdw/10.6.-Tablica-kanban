@@ -1,5 +1,4 @@
 @import 'https://fonts.googleapis.com/css?family=Lato|Open+Sans';
-@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 * {
@@ -35,7 +34,6 @@ h1 {
   color: #411A6B;
   font-size: 20px;
   background-color: #E3DA62;
-  font-family: 'Cormorant Garamond', serif;
   border: none;
   cursor: pointer;
   transition: 3s;
@@ -53,9 +51,8 @@ h1 {
 }
 
 .column {
-  min-width: 250px;
-  max-width: 350px;
-  justify-content: center;
+  min-width: 300px;
+  max-width: 450px;
   border-right: dashed #E3DA62 4px;
   padding: 0 7px;
 }
@@ -72,7 +69,10 @@ h1 {
   font-size: 20px;
   text-transform: uppercase;
   background-color: #704999;
+}
 
+.column-card-list {
+  min-height: 50vh;
 }
 
 .btn-delete {
@@ -133,6 +133,7 @@ li p {
 
 .card-placeholder {
   height: 62px;
-    border: dashed 2px grey;
+  border: dashed 2px grey;
+  list-style: none;
 }
 
