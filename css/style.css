@@ -48,12 +48,14 @@ h1 {
 
 .column-container{
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .column {
   min-width: 250px;
   max-width: 350px;
-  display: inline-block;
+  justify-content: center;
   border-right: dashed #E3DA62 4px;
   padding: 0 7px;
 }
@@ -71,10 +73,6 @@ h1 {
   text-transform: uppercase;
   background-color: #704999;
 
-}
-
-.ui-sortable {
-  min-height: 200px;
 }
 
 .btn-delete {
@@ -107,7 +105,7 @@ h1 {
   list-style: none;
   padding: 15px 0;
   border: 1px solid #FFEFBD;
-
+  margin: 5px 0;
 }
 
 .card .btn-delete {
